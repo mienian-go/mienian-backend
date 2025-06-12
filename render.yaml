@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mienian-backend
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
+    branch: main
+    region: oregon
+    autoDeploy: true
